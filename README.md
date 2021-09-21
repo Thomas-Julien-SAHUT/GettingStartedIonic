@@ -4,7 +4,7 @@ Ionic 5 + Angular
 
 # Tools
 
- - AlerteController from @ionic/angular
+ - AlertController from @ionic/angular
  - DomSanitizer from @angular/plateform-browser
  - Web Storage from @ionic/storage-angular
  - HttpClient from @angular/common/http
