@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "city": "Clermont-Ferrand",
+    "urlImg": "https://www.mytogu.com/wp-content/uploads/2019/10/Clermont-Ferrand.jpg",
+    "description": "Clermont-Ferrand est une ville universitaire du centre de la France, à proximité de la chaîne montagneuse des Puys. La cathédrale gothique de Clermont-Ferrand, bâtie à partir de pierre de lave, et la basilique romane de Notre-Dame du Port, arborant des mosaïques, se trouvent à deux pas des fontaines et des statues de l'immense place de Jaude. Vulcania, le parc de loisirs et musée sur le thème des volcans, est situé au nord-ouest de la ville. Il propose des spectacles interactifs."
+  },
+  {
+    "id": 2,
+    "city": "Riom",
+    "urlImg": "https://img.lamontagne.fr/pO8uq8Ya5yxegRdEbJHEjg7PqzEpF6HZ4zTu_yojv3o/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDQvNDkvMDkvMjAwMDAwNDQ5MDk5MQ.jpg",
+    "description": "Riom est une commune française située dans le département du Puy-de-Dôme, en région d'Auvergne-Rhône-Alpes. Elle possède sa propre unité urbaine qui s'intègre à l'aire urbaine de Clermont-Ferrand.Elle est depuis l'époque médiévale une ville rivale de Clermont-Ferrand, la capitale historique et culturelle de l'Auvergne. Elle fut néanmoins capitale du duché d'Auvergne, une des quatre principautés féodales auvergnates rivales pour l'unification de cette régionc. Par son histoire et son patrimoine bâti la ville est classée Pays d'Art et d'histoire."
+  },
+  {
+    "id": 3,
+    "city": "Chamalieres",
+    "urlImg": "https://www.7joursaclermont.fr/wp-content/uploads/2020/03/Mairie-Chamalieres-bis.jpg",
+    "description": "Chamalières est une commune française, située dans le département du Puy-de-Dôme, en région Auvergne-Rhône-Alpes. À l'instar de sa voisine Royat, la ville est une des deux grandes stations thermales situées à proximité directe de Clermont-Ferrand."
+  }
+]

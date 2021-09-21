@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      Page d'accueil
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="tertiary">
+    <ion-searchbar>
+
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+
+  <ion-item>
+    <ion-label position="floating">Votre libelle</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="showCamera()">
+    Camera
+  </ion-button>
+
+  <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="showHttpGetResults()">
+    API GET
+  </ion-button>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of results">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="{{item.urlImg}}" />
+        </ion-thumbnail>
+        <ion-label>
+          <h2>FRANCE</h2>
+          <h3>
+            {{item.city}}
+          </h3>
+          <h4>{{item.id}}</h4>
+          <p>{{item.description}}</p>
+        </ion-label>
+        <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="showCity(item.id-1)">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option>Archiver</ion-item-option>
+      </ion-item-options>
+      <ion-item-options side="end">
+        <ion-item-option color="danger">Supprimer</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+  <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="toaster()">
+    Toaster
+  </ion-button>
+
+  <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="toastCapacitor()">
+    capacitor/toast
+  </ion-button>
+
+</ion-content>
+

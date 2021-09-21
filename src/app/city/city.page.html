@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="danger ">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button (click)="moreInfo()">More Details</ion-button>
+
+  <div *ngIf="etat === true">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>{{country}}</ion-card-title>
+        <ion-card-subtitle>{{results.city}}</ion-card-subtitle>
+      </ion-card-header>
+
+      <img src="{{results.urlImg}}" />
+
+      <ion-card-content>
+        <p>{{results.description}}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>

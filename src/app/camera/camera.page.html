@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="danger ">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img [src]="photo" />
+
+  <ion-button color="secondary" expand="block" shape="round" fill="outline" size="large" (click)="save()">
+    Enregistrer
+  </ion-button>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="takePicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
